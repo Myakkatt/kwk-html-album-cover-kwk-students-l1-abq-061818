@@ -29,7 +29,7 @@ RSpec.describe 'HTML Album Cover' do
 
         expect(back_cover.children.select {|ch| ch.name == "img"}.length).to be >= 2, "Make sure to include both `img` tags"
 
-      end
+    end
 
   end
 end
